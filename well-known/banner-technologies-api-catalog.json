@@ -1,0 +1,45 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://withbanner.com/home/api/markdown",
+      "service-doc": [
+        {
+          "href": "https://withbanner.com/home/api/markdown",
+          "type": "text/markdown",
+          "title": "Markdown representation of Banner marketing pages"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://withbanner.com/.well-known/agent-skills/index.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://withbanner.com/home/api/subscribe",
+      "service-doc": [
+        {
+          "href": "https://withbanner.com/home/contact",
+          "type": "text/html",
+          "title": "Contact Banner"
+        }
+      ]
+    },
+    {
+      "anchor": "https://withbanner.com/home/api/mcp",
+      "service-meta": [
+        {
+          "href": "https://withbanner.com/.well-known/mcp/server-card.json",
+          "type": "application/json",
+          "title": "MCP Server Card"
+        },
+        {
+          "href": "https://withbanner.com/.well-known/agent.json",
+          "type": "application/json",
+          "title": "A2A Agent Card"
+        }
+      ]
+    }
+  ]
+}

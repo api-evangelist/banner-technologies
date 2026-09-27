@@ -1,0 +1,15 @@
+{
+  "resource": "https://withbanner.com",
+  "authorization_servers": [
+    "https://auth.withbanner.com/"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email"
+  ],
+  "resource_documentation": "https://withbanner.com/home/contact"
+}

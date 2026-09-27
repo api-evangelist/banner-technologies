@@ -35,6 +35,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: SecurityTxt
+  url: well-known/banner-technologies-withbanner-security.txt
 - type: LLMsTxt
   url: llms/banner-technologies-llms.txt
 - type: AgentCard

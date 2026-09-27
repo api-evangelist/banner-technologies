@@ -1,0 +1,20 @@
+# Banner Support Site
+
+> Support Articles
+
+## Cost Management
+
+- [Banner Inbox Best Practices](https://docs.withbanner.com/en/articles/13886163-banner-inbox-best-practices.md)
+- [Choose which vendor contact signs DocuSign documents](https://docs.withbanner.com/en/articles/16199063-choose-which-vendor-contact-signs-docusign-documents.md): Designate a specific vendor contact as the DocuSign signer from the Additional Contacts panel, instead of always defaulting to the primary contact.
+
+## Vendor Management
+
+- [Vendor Invitation Emails for Manually Added Contracts](https://docs.withbanner.com/en/articles/15852350-vendor-invitation-emails-for-manually-added-contracts.md): When a manually added contract is fully approved in Banner, the primary vendor and any additional contacts added will receive a notification.
+
+## Settings & Configuration
+
+- [Tag Groups](https://docs.withbanner.com/en/articles/15478402-tag-groups.md): How to create and use tag groups — custom tables for tracking structured, multi-row data on your assets, shells, and projects.
+
+## FAQs
+
+- [How to Clear Your Cache](https://docs.withbanner.com/en/articles/9486053-how-to-clear-your-cache.md)

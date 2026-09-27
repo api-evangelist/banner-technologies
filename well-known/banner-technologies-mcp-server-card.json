@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "draft",
+  "serverInfo": {
+    "name": "banner-site",
+    "version": "0.1.0",
+    "title": "Banner",
+    "description": "Public, read-only MCP server for Banner — a CapEx management platform for real estate owners, operators, and developers. Exposes tools for fetching marketing-page markdown, listing competitor comparison pages, and retrieving contact info.",
+    "documentation": "https://withbanner.com/home"
+  },
+  "transports": [
+    {
+      "type": "streamable-http",
+      "url": "https://withbanner.com/home/api/mcp"
+    }
+  ],
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    }
+  },
+  "authentication": {
+    "required": false
+  }
+}

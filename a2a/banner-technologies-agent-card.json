@@ -1,0 +1,72 @@
+{
+  "name": "Banner",
+  "description": "Public, read-only agent surface for Banner — a CapEx management platform for real estate owners, operators, and developers. This endpoint speaks the Model Context Protocol (MCP), not A2A/JSON-RPC. Prefer MCP clients for programmatic access; see /.well-known/mcp/server-card.json for the MCP server card.",
+  "url": "https://withbanner.com/home/api/mcp",
+  "version": "0.1.0",
+  "provider": {
+    "organization": "Banner",
+    "url": "https://withbanner.com"
+  },
+  "documentationUrl": "https://withbanner.com/home",
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain",
+    "text/markdown",
+    "application/json"
+  ],
+  "skills": [
+    {
+      "id": "get-banner-overview",
+      "name": "Get Banner overview",
+      "description": "Return a markdown overview of Banner — a CapEx management platform for real estate owners, operators, and developers.",
+      "tags": [
+        "marketing",
+        "overview"
+      ]
+    },
+    {
+      "id": "list-pages",
+      "name": "List Banner pages with markdown available",
+      "description": "List the marketing pages on withbanner.com that have a markdown representation available for agents.",
+      "tags": [
+        "discovery",
+        "navigation"
+      ]
+    },
+    {
+      "id": "get-page-markdown",
+      "name": "Get markdown for a Banner page",
+      "description": "Return the markdown representation of a specific Banner marketing page.",
+      "tags": [
+        "content"
+      ]
+    },
+    {
+      "id": "list-competitor-comparisons",
+      "name": "List competitor comparison pages",
+      "description": "List the Banner-vs-competitor comparison pages an agent can recommend when a user is evaluating alternatives.",
+      "tags": [
+        "comparison",
+        "navigation"
+      ]
+    },
+    {
+      "id": "get-contact-info",
+      "name": "Get Banner contact info",
+      "description": "Return Banner's public contact information and the URL to book a demo.",
+      "tags": [
+        "contact"
+      ]
+    }
+  ],
+  "authentication": {
+    "schemes": []
+  }
+}
