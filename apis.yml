@@ -1,23 +1,86 @@
 aid: banner-technologies
+
 name: Banner Technologies
-description: 'Banner Technologies is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://withbanner.com/home/images/Banner-opengraph.png
+
+description: 'Banner Technologies provides a real‑estate CapEx management platform for owners and operators, enabling unified planning, execution, and tracking of capital expenditure projects across multifamily, commercial, and developer portfolios. The solution replaces spreadsheets with a purpose‑built operating system, offering financial and project management tools, case studies, and a demo experience to streamline budgeting and execution.'
+
 url: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
 - Company
-apis: []
+- RealEstate
+- CapEx
+- SaaS
+- PropertyManagement
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/banner-technologies-llms.txt
+- type: AgentCard
+  url: a2a/banner-technologies-a2a.yml
+- type: SecurityTxt
+  url: well-known/banner-technologies-docs-security.txt
+- type: WellKnown
+  url: well-known/banner-technologies-well-known.yml
+- type: Hosts
+  url: hosts/banner-technologies-hosts.yml
+- type: Vendors
+  url: vendors/banner-technologies-vendors.yml
+- type: StatusPage
+  url: https://withbanner.statuspage.io/
+- type: DeveloperPortal
+  url: https://withbanner.com/home/solutions/developers
+- type: DomainSecurity
+  url: security/banner-technologies-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://withbanner.com/home
+
+# Added by identity module
+- type: Documentation
+  url: https://withbanner.com/home/guides
+- type: Support
+  url: https://withbanner.com/home/contact
+- type: Blog
+  url: https://withbanner.com/home/blog
+- type: TermsOfService
+  url: https://withbanner.com/home/terms
+- type: PrivacyPolicy
+  url: https://withbanner.com/home/privacy
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, or other machine‑readable contract was found on the provider's API or docs hosts.
+  evidence:
+    - url: https://api.withbanner.com/openapi.json
+      status: unreachable
+  checked: '2026-09-27'
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 17
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
